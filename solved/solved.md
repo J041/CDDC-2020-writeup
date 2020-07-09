@@ -29,7 +29,7 @@ We know max is: (2^32)-1 = 4294967296 - 1
 
 Using netcat and putting the maximum limit, we get the flag!
 
-[](pwn2)
+![](./screenshots/pwn2.png)
 
 **Flag**
 
@@ -228,7 +228,7 @@ Attached Files: [much-confusing.png](./attached_files/much-confusing.png)
 
 Tool used: https://www.diffchecker.com/image-diff
 
-![](Screenshots/Visual%20Noise.png)
+![](./screenshots/visual_noise.png)
 
 **Flag**
 
@@ -337,8 +337,6 @@ What time is it?
 
 Unix timestamps and conversion to plaintext.
 
-![](Screenshots/What%20Time%20Is%20It%20%5B1%5D.png)
-
 **Flag**
 
 ```
@@ -358,6 +356,9 @@ Attached Files: dump
 **Solution**
 
 Volatility used to analyse the dump and the dump was converted from binary to text.
+Use imageinfo plugin, found profile=WinXPSP2x86
+Use consoles plugin, there is some 0s & 1s
+Convert it from binary to text to get the flag.
 
 **Flag**
 
