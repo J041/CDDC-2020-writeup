@@ -28,6 +28,9 @@ It's our chance to unravel the secrets of this pcap file!
 
 we found a suspicious wav file in unduplicitous corp's server.Hmm.
 
+Note:
+The extracted data does not include the flag format "CDDC20{}". 
+
 > Attached file [original.wav](./original.wav)
 > Attached file [suspicious.wav](./suspicious.wav)
 
@@ -55,6 +58,9 @@ Byte at a time
 **Challenge**
 
 The CTO of Unduplicitous Corp has decided to send his minions for an "Intensive AI training Course". We wonder what is the curriculum all about ....
+
+Note:
+The extracted data does not include the flag format "CDDC20{}". 
 
 > Attached file [BTS](./BTS)
 
@@ -112,6 +118,9 @@ Welcome to 3-DCS (Triple Data Compiling Standard System!)
 **Challenge**
 
 From all the intensive OSINT that we have done, we found out that the CTO of Undupliciotus Corp really loves listening to classocoa; mussic. His favourite musician is Bach, it seems.
+
+Note:
+The extracted data does not include the flag format "CDDC20{}". 
 
 > Attached file [BWV1080.mid](./BWV1080.mid)
 
