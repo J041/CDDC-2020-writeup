@@ -270,7 +270,7 @@ Attached Files: [secret.dat](./attached_files/secret.dat)
 
 Tool used: http://des.online-domain-tools.com/
 
-![](Screenshots/ilovedes.png)
+![](./screenshots/ilovedes.png)
 
 The key was in the challenge description.
 
