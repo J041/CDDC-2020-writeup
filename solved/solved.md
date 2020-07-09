@@ -49,9 +49,9 @@ fsb.chall.cddc2020.nshc.sg 30303
 
 Format String Bug. We had to leak the stack from the program. After getting the dump, we changed the hex to ascii, changed the endianness and got the flag!
 
-[](fsb1)
-[](fsb2)
-[](fsb3)
+![](./screenshots/fsb1.png)
+![](./screenshots/fsb2.png)
+![](./screenshots/fsb3.png)
 
 **Flag**
 
@@ -93,8 +93,6 @@ Attached Files: [noisy.pcap](./attached_files/noisy.pcap)
 
 Follow http stream and use the find function  
 
-![](Screenshots/%5BNetwork-2%5D%20Mama%20Shark.png)
-
 **Flag**
 
 ```
@@ -113,8 +111,6 @@ http://notime.chall.cddc20.nshc.sg:1337/
 **Solution**
 
 Inspect element
-
-![](Screenshots/%5BWeb-1%5D%20No%20Time.png)
 
 **Flag**
 
@@ -136,11 +132,11 @@ Note: Flag format is CDDC20{username_password}
 
 Inspect element gave us the MD5 hashes of the login credentials, which we used Crackstation to crack the hashes.
 
-![](Screenshots/%5BWeb-2%5D%20VulnLogin.png)
+![](./screenshots/vulnlogin.png)
 
 Crackstation tool used to crack the hashes.
 
-![](Screenshots/%5BWeb-2%5D%20VulnLogin1.png)
+![](./screenshots/crack.png)
 
 **Flag**
 
@@ -161,9 +157,9 @@ Attached Files: [myprog](./attached_files/myprog)
 
 **Solution**
 
-The file header is first checked, of which we quickly find out that it is an .ELF (Linux executable). The program is initially run to see that there were insufficient arguments. Since there is a key, we pass in the key together with the program and we get the flag for the challenge!
+Pass the given key to the program to get the flag
 
-![](Screenshots/%5BMisc-2%5D%20ARGH.png)
+![](./screenshots/argh.png)
 
 **Flag**
 
@@ -183,9 +179,9 @@ Attached Files: [DissectMe.exe](./attached_files/DissectMe.exe)
 
 **Solution**
 
-Extract files with 7zip and look under BITMAP. The flag is in FLAG.bmp
-
-![](Screenshots/%5BRE%20(Windows)-2%5D%20Dissect%20Me.png)
+Using ghidra to search for the string showed the flag
+![](./screenshots/dissect1.png)
+![](./screenshots/dissect2.png)
 
 **Flag**
 
@@ -203,9 +199,7 @@ Attached Files: [CheatMe.exe](./attached_files/CheatMe.exe)
 
 **Solution**
 
-Cheat Engine. Select the running Cheatme.exe program and change scan type to “Exact value” and value to “All” since we do not know the data type. Enter the number in the minutes place. First scan is then performed. When the minute value changes, key in the 2nd number which is 54 then click “Next scan”. A single address should appear. Change the value to “0” and repeat for the hours. When time is up, viola! Flag appears.
-
-![](Screenshots/%5BRE%20(Windows)-3%5D%20Cheat%20Me1.png)
+Use Cheat Engine to scan for the values of the hours, minutes and seconds and change the values to "0", which would show the flag once the time ran out
 
 **Flag**
 
@@ -392,7 +386,7 @@ Attached Files: [SuspiciousSvc](./attached_files/SuspiciousSvc)
 
 Reverse engineering and buffer exploitation
 python -c ‘print(“\x90”*256+”\x00\x3d\x34\x01”)’ | ./SUSsvc
-Now replace “./SUSsvc” with the netcat to the server. Flag will be returned (Server down by time writeup done)
+Replace “./SUSsvc” with the netcat to the server. Flag will be returned
 
 **Flag**
 
