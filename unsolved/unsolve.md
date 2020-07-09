@@ -5,7 +5,7 @@
 
 Do you have HACKER's 3y3?
 
-> Attached file (HACKER.3y3)
+> Attached file [HACKER.3y3](./HACKER.3y3)
 
 **Hint**
 > 1. UnPack eXe
@@ -20,7 +20,7 @@ Our trusty Insider XAE had planted a network sniffer in one of UNduplicitous Cor
 
 It's our chance to unravel the secrets of this pcap file!
 
-> Attached file (sniffed.pcap)
+> Attached file [sniffed.pcap](./sniffed.pcap)
 
 ## My Favourite Music
 
@@ -28,7 +28,8 @@ It's our chance to unravel the secrets of this pcap file!
 
 we found a suspicious wav file in unduplicitous corp's server.Hmm.
 
-> Attached file (original.wav & suspicious.wav)
+> Attached file [original.wav](./original.wav)
+> Attached file [suspicious.wav](./suspicious.wav)
 
 **Hint**
 > LSB
@@ -43,7 +44,7 @@ You, as the resistance fighter founr the office number of UnduplicitousCorp HQ. 
 'Hello~ i'm going out for a while.\
 Please leave me a message.'
 
-> Attached file (hello.py)
+> Attached file [hello.py](./hello.py)
 
 **Hint**
 > AES ECB mode\
@@ -55,7 +56,7 @@ Byte at a time
 
 The CTO of Unduplicitous Corp has decided to send his minions for an "Intensive AI training Course". We wonder what is the curriculum all about ....
 
-> Attached file (BTS)
+> Attached file [BTS](./BTS)
 
 **Hint**
 > z3/angr may help you
@@ -67,7 +68,7 @@ The CTO of Unduplicitous Corp has decided to send his minions for an "Intensive 
 Hex-rays? we don't need it :P\
 We have something better: Head-rays!
 
-> Attached file (head-rays)
+> Attached file [Head-rays](./head-rays)
 
 **Hint**
 > Lua Assembly
@@ -80,7 +81,7 @@ His name is Red, he is strong and muscular.
 
 i heard that the CTO of UndupliciotusCorp is a big fan of him
 
-> Attached file (how_can_i_fight)
+> Attached file [How_can_I_fight](./how_can_i_fight)
 
 **Hint**
 > Archive Decryption Header
@@ -91,7 +92,7 @@ i heard that the CTO of UndupliciotusCorp is a big fan of him
 
 Let's spin @_@
 
-> Attached file (spin.exe)
+> Attached file [Spin.exe](./spin.exe)
 
 **Hint**
 > This is a programming challenge, not RE
@@ -104,7 +105,7 @@ Welcome to 3-DCS (Triple Data Compiling Standard System!)
 
 3-dcs.chall.cddc2020.nshc.sg 9011
 
-> Attached file (3-DCS.zip)
+> Attached file [3-DCS.zip](./3-DCS.zip)
 
 ## i love bach
 
@@ -112,5 +113,5 @@ Welcome to 3-DCS (Triple Data Compiling Standard System!)
 
 From all the intensive OSINT that we have done, we found out that the CTO of Undupliciotus Corp really loves listening to classocoa; mussic. His favourite musician is Bach, it seems.
 
-> Attached file (BWV1080.mid)
+> Attached file [BWV1080.mid](./BWV1080.mid)
 
