@@ -36,14 +36,3 @@ Secret Code | WARP GATE 4 | CDDC20{E4syR3v3rS1ng~}
 What Time Is It? [1] | WARP GATE 4 | CDDC20{_ItI_sN3_ver_Too_Lat_eT0_Ask_Wha_tT1_me1_tI5_!!}
 Between 0&1 | WARP GATE 4 | CDDC20{Ev1dence_H1dden_Between_0&1}
 Suspicious Service | WARP GATE 4 | CDDC20{BufferrrrrrrrrOverflowwwwwwwwwwwwwwwwwwwww}
-WYSIWYG | WARP GATE 4 | Unsolved 
-My Favourite Music | WARP GATE 3 | Unsolved
-Hello | WARP GATE 3 | Unsolved
-Back To School | WARP GATE 3 | Unsolved
-Head-rays | WARP GATE 3 | Unsolved
-Wanna PK | WARP GATE 3 | Unsolved
-UnDc | WARP GATE 3 | Unsolved
-Spin | WARP GATE 3 | Unsolved
-3-DCS | WARP GATE 3 | Unsolved
-i love bach | WARP GATE 3 | Unsolved
-what time is it[2] | WARP GATE 3 | Unsolved
