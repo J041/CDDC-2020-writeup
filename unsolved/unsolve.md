@@ -1,3 +1,20 @@
+# Unsolved challenges
+
+challenges which were not solved during the competition
+
+Challenge | Warp Gate | flag
+----------|:---------:| ------
+WYSIWYG | WARP GATE 4 | Unsolved 
+My Favourite Music | WARP GATE 3 | Unsolved
+Hello | WARP GATE 3 | Unsolved
+Back To School | WARP GATE 3 | Unsolved
+Head-rays | WARP GATE 3 | Unsolved
+Wanna PK | WARP GATE 3 | Unsolved
+UnDc | WARP GATE 3 | Unsolved
+Spin | WARP GATE 3 | Unsolved
+3-DCS | WARP GATE 3 | Unsolved
+i love bach | WARP GATE 3 | Unsolved
+what time is it[2] | WARP GATE 3 | Unsolved
 
 ## WYSIWHG
 
